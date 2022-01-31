@@ -19,5 +19,6 @@ urlpatterns = [
     path('can/<int:can_id>/user/<str:user_id>/report', BinReported.as_view()),
     path('user/<str:user_id>/can/request', RequestBin.as_view()),
     path('karmaboard', KarmaBoard.as_view()),
+    path('projectair/can-reprted/<int:can_id>', BinReported.as_view()),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
