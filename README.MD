@@ -16,8 +16,8 @@ This is made using Django and Flutter.
 
 
 Start:
-Django App
-Flutter App
+Django App,
+Flutter App,
 Setup Project AIR
 
 IOT Can -> Project Air -> Call to backend
